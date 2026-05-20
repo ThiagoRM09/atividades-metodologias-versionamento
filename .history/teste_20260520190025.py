@@ -10,15 +10,11 @@ def multiplicacao(num1, num2):
 def divisao(num1, num2):
     return num1 / num2
 
-def potenciacao(num1, num2):
-    return num1 ** num2
-
-def porcentagem(num1, num2):
-    return (num1 * num2) / 100
+def potenciacao(num1, num2)
 
 print("=== CALCULADORA CTWMI82 EM PYTHON ===")
 
-escolha = int(input("Digite uma das opções de operação abaixo: \n1 - Adição\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potenciação\n6 - Porcentagem (Porcentagem | Valor)\nUsuário, digite a sua escolha: "))
+escolha = int(input("Digite uma das opções de operação abaixo: \n1 - Adição\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potenciação\nUsuário, digite a sua escolha: "))
 numero1 = float(input("Digite o primeiro número: "))
 numero2 = float(input("Digite o segundo número: "))
 
@@ -34,11 +30,9 @@ match escolha:
     case 4:
         valor = divisao(numero1, numero2)
     case 5:
-        valor = potenciacao(numero1, numero2)
-    case 6:
-        valor = porcentagem(numero1, numero2)
+        valor = 
     case _: 
         print("Opção de operação INVÁLIDA")
 
-if escolha >= 1 and escolha <= 6:
+if escolha >= 1 and escolha <= 4:
     print("O resultado da operação é: " + str(valor))

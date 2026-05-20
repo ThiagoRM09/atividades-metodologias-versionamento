@@ -18,7 +18,7 @@ def porcentagem(num1, num2):
 
 print("=== CALCULADORA CTWMI82 EM PYTHON ===")
 
-escolha = int(input("Digite uma das opções de operação abaixo: \n1 - Adição\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potenciação\n6 - Porcentagem (Porcentagem | Valor)\nUsuário, digite a sua escolha: "))
+escolha = int(input("Digite uma das opções de operação abaixo: \n1 - Adição\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potenciação\n6 - Porcentagem (Porcentagem | )\nUsuário, digite a sua escolha: "))
 numero1 = float(input("Digite o primeiro número: "))
 numero2 = float(input("Digite o segundo número: "))
 
